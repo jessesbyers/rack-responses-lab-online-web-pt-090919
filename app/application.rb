@@ -1,6 +1,6 @@
 require 'rack'
 
-class MyServer
+class Application
  def call(env)
    return [ 200, {'Content-Type' => 'text/html'}, custom_response ]
  end
