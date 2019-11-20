@@ -14,7 +14,7 @@ class MyServer
   end
  end
 
- run MyServer.new
+ # run MyServer.new
 
 
 #    (Time.now < 12 ?  ["<strong>Good Morning!<strong>"] : ["<strong>Good Afternoon!</strong>"]
