@@ -7,7 +7,6 @@ class Application
  end
 
  def custom_response
-   binding.pry
    if Time.now.hour < 12
      ["<strong>Good Morning!<strong>"]
    else
