@@ -8,7 +8,7 @@ class Application
 
  def custom_response
    binding.pry
-   if Time.now < 12
+   if Time.now.hour < 12
      ["<strong>Good Morning!<strong>"]
    else
      ["<strong>Good Afternoon!</strong>"]
