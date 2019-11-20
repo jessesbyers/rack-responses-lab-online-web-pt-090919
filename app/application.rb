@@ -14,10 +14,3 @@ class Application
    end
   end
  end
-
- # run MyServer.new
-
-
-#    (Time.now < 12 ?  ["<strong>Good Morning!<strong>"] : ["<strong>Good Afternoon!</strong>"]
-#  end
-# end
